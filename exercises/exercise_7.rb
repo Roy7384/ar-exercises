@@ -26,3 +26,7 @@ class Store
   end
 
 end
+
+user_store_name = gets.chomp
+
+Store.new(name: user_store_name)
