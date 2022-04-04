@@ -13,7 +13,7 @@ class Store
   has_many :employees
 end
 
-class Employee < ActiveRecord::Base
+class Employee 
   belongs_to :store
 end
 
